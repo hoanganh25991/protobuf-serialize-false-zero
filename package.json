@@ -1,0 +1,25 @@
+{
+  "name": "moleculer-zero-and-false-bug",
+  "version": "1.0.0",
+  "description": "My Moleculer microservice",
+  "scripts": {
+    "dev": "moleculer-runner --repl --hot service.js",
+    "start": "moleculer-runner service.js"
+  },
+  "keywords": [
+    "microservices",
+    "moleculer"
+  ],
+  "author": "",
+  "devDependencies": {
+    "moleculer-repl": "^0.5.0"
+  },
+  "dependencies": {
+    "moleculer": "^0.13.0",
+    "nats": "^1.0.0",
+    "protobufjs": "^6.8.8"
+  },
+  "engines": {
+    "node": ">= 8.x.x"
+  }
+}

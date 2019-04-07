@@ -8,5 +8,9 @@ module.exports = {
     willReturnZero() {
       return 0;
     },
+
+    willReturnNull() {
+      return null;
+    },
   },
 };

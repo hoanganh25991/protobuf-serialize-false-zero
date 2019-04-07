@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "My Moleculer microservice",
   "scripts": {
-    "dev": "moleculer-runner --repl --hot service.js",
-    "serve": "moleculer-runner --repl --hot",
-    "start": "moleculer-runner service.js"
+    "moleculer-runner": "moleculer-runner",
+    "start": "moleculer-runner service.js",
+    "dev": "moleculer-runner --repl --hot service.js"
   },
   "keywords": [
     "microservices",
@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "google-protobuf": "^3.7.1",
-    "moleculer": "^0.13.8",
+    "moleculer": "moleculerjs/moleculer",
     "nats": "^1.0.0",
     "notepack.io": "^2.2.0",
     "protobufjs": "^6.8.8",

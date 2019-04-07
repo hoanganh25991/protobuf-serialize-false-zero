@@ -102,7 +102,7 @@ ansi-styles@^3.2.0, ansi-styles@^3.2.1:
   dependencies:
     color-convert "^1.9.0"
 
-args@^5.0.0:
+args@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/args/-/args-5.0.1.tgz#4bf298df90a4799a09521362c579278cc2fdd761"
   integrity sha512-1kqmFCFsPffavQFGt8OxJdIcETti99kySRUPMpOhaGjL6mRJn8HFU1OxKY5bMqfZKUwTQc1mZkAjmGYaVOHFtQ==
@@ -372,7 +372,7 @@ fast-json-stable-stringify@^2.0.0:
   resolved "https://registry.yarnpkg.com/fast-json-stable-stringify/-/fast-json-stable-stringify-2.0.0.tgz#d5142c0caee6b1189f87d3a76111064f86c8bbf2"
   integrity sha1-1RQsDK7msRifh9OnYREGT4bIu/I=
 
-fastest-validator@^0.6.15:
+fastest-validator@^0.6.17:
   version "0.6.17"
   resolved "https://registry.yarnpkg.com/fastest-validator/-/fastest-validator-0.6.17.tgz#15a8eef2c7c5a3268e4689dfd4a4b6553f0ff8b1"
   integrity sha512-XkdrjNbXwFJSn8s8dceofnA2ZHppfXtbTHP2dO2jXHZfm2GWP55VQBx/0UKWxfFfdWqmJv4ppBzuf342h5bahw==
@@ -577,17 +577,16 @@ moleculer-repl@^0.5.0:
     tiny-human-time "^1.2.0"
     vorpal "^1.12.0"
 
-moleculer@^0.13.8:
+moleculer@moleculerjs/moleculer:
   version "0.13.8"
-  resolved "https://registry.yarnpkg.com/moleculer/-/moleculer-0.13.8.tgz#bce352e0ee8e5dc508192a0df4abd72c6c633718"
-  integrity sha512-Er6ja5vtnQQhh6P9iXgTDOkq1xi2Wd64PCGEcIS5EZnRlM5Nl+kBJMhOfXMgfZyRLvF9kr4nnaimzAVrYz8tMg==
+  resolved "https://codeload.github.com/moleculerjs/moleculer/tar.gz/74dc8a67168c812c88d495d8b03c59f9c875f750"
   dependencies:
-    args "^5.0.0"
+    args "^5.0.1"
     bluebird "^3.5.3"
     chalk "^2.4.2"
     es6-error "^4.1.1"
     eventemitter2 "^5.0.1"
-    fastest-validator "^0.6.15"
+    fastest-validator "^0.6.17"
     glob "^7.1.3"
     ipaddr.js "^1.9.0"
     lodash "^4.17.11"
